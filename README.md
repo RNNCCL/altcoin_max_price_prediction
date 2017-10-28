@@ -68,3 +68,19 @@ tensorboard --logdir ./tools/result/TrainerA_1/TrainerA_1_0.02_250_10_0.2_32_300
 ```
 
 ![](docs/tb.png?raw=true)
+
+## self QnA
+
+#### Q1) Why didn't you use RNN(Recurrent neural network) for sequantial data?
+
+RNN can predict the value "right after" input data well. But in this case, it needs to predict around 360 steps (6 hours -> 360 mins) and calculate max price and max reach time index. So I would say it is hard to predict.
+
+But if I use ANN(artificial neural network) then the model just needs to predict only two output - max time index and max price. So it means ANN model is easier to reach higher accuracy than RNN model.
+
+#### Q2) How much accuracy you've got with this?
+
+This is just part of my personal project and the max accuracy is secret. I just shared part of my code in here - github to show and use as my portfolio.
+
+If you execute just this code, you will not get high accuracy because this code gets only 1 day altcoin trading data so data is not enough and I excluded some of functions which helps to get better accuracy when I share the code in here.
+
+But it means that you have a chance to improve yourself with accuracy challenge as well.
