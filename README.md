@@ -17,7 +17,7 @@ The main purpose is making neural network model to predict the max price reach t
 
 Let's see one of the altcoin price time graph.
 
-![](docs/purpose.png?raw=true)
+![](docs/explain_altcoin_max_prediction.png?raw=true)
 
 Based on 12 hours history data, the NN model will predict "max price reach time index" and "max price value" in future 6 hours.
 
