@@ -73,7 +73,7 @@ tensorboard --logdir ./tools/result/TrainerA_1/TrainerA_1_0.02_250_10_0.2_32_300
 
 #### Q1) Why didn't you use RNN(Recurrent neural network) for sequantial data?
 
-RNN can predict the value "right after" input data well. But in this case, it needs to predict around 360 steps (6 hours -> 360 mins) and calculate max price and max reach time index. So I would say it is hard to predict.
+RNN can predict the sequential value "right after" input sequential value well. But in this case, it needs to predict around 360 steps (6 hours -> 360 mins) and calculate max price and max reach time index. So I would say it is hard to predict.
 
 But if I use ANN(artificial neural network) then the model just needs to predict only two output - max time index and max price. So it means ANN model is easier to reach higher accuracy than RNN model in this case. That's why I used ANN.
 
