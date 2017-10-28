@@ -23,7 +23,7 @@ Based on 12 hours history data, the NN model will predict "max price reach time 
 
 If we can predict what time altcoin price can reach the max value during specific times and how much price will be then it means we can make a money based on this NN model.
 
-## how to setup?
+## How to setup?
 
 First, clone this repository.
 
@@ -69,7 +69,7 @@ tensorboard --logdir ./tools/result/TrainerA_1/TrainerA_1_0.02_250_10_0.2_32_300
 
 ![](docs/tb.png?raw=true)
 
-## self QnA
+## Self QnA
 
 #### Q1) Why didn't you use RNN(Recurrent neural network) for sequantial data?
 
